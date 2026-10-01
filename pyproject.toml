@@ -1,0 +1,22 @@
+[project]
+name = "tf2-image-data-pipelines-lsun-cifar100"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Diego Ramirez Rosas", email = "ramirezgrosas@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.4.6",
+    "tensorflow>=2.21.0",
+]
+
+[project.scripts]
+tf2-image-data-pipelines-lsun-cifar100 = "tf2_image_data_pipelines_lsun_cifar100:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
