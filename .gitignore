@@ -9,7 +9,13 @@ wheels/
 # Virtual environments
 .venv
 
-#
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-/data
+# macOS metadata
+.DS_Store
+
+# LSUN image folders (not tracked; sample images, CIFAR-100 labels and the cover image are)
+data/lsun/train/
+data/lsun/valid/
+data/lsun/test/

@@ -1,7 +1,7 @@
 [project]
 name = "tf2-image-data-pipelines-lsun-cifar100"
 version = "0.1.0"
-description = "Add your description here"
+description = "Image data pipelines with TensorFlow 2 (Keras): ImageDataGenerator with and without data augmentation on an LSUN subset, and tf.data filtering and mapping on a CIFAR-100 subset."
 readme = "README.md"
 authors = [
     { name = "Diego Ramirez Rosas", email = "ramirezgrosas@gmail.com" }
